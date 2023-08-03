@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.play-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(33%,1fr));
+}
+.cell{
+    border: 1px solid red;
+    height: 100px;
+
+}
+svg{
+    height: 50px;
+}
